@@ -19,6 +19,11 @@ export default createGlobalStyle`
     border:none;
   }
 
+  a {
+
+    cursor: pointer;
+  }
+
   body {
 
     background-color:${Colors.background.darkGray};
