@@ -7,11 +7,4 @@ export const AppContainer = styled.div`
 
     background-color:${Colors.background.darkGray};
     height:100vh;
-
-    ul {
-
-        color:#fff
-    }
-
-
 `
