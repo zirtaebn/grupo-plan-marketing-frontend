@@ -36,8 +36,8 @@ const WhatWeDo = () => {
             <WhatWeDoRight>
                 <WhatWeDoContent>
                     <WhatWeDoImage 
-                        src='https://t.tudocdn.net/503907'
-                        alt='garoto jogando no celular'
+                        src='https://planmkt.com.br/imagecache/news_list/files/planxp_news/789TGsuiW2uuZZ2oRJLRvb8VEO63zi5xZHze2tKA.png'
+                        alt=''
                     />
 
                     <WhatWeDoDescription>
@@ -47,8 +47,8 @@ const WhatWeDo = () => {
                 </WhatWeDoContent>
                 <WhatWeDoContent>
                     <WhatWeDoImage 
-                        src='https://media.istockphoto.com/photos/men-playing-video-games-picture-id1132281737?k=20&m=1132281737&s=170667a&w=0&h=Vv5u6xQFeFzixD1npl5mENRY5MA1yoqt_-ILct0kWSI='
-                        alt='garoto jogando no computador'
+                        src='https://planmkt.com.br/imagecache/news_list/files/planxp_news/ynsUna5JNHFWgahb2nMl7RjyvGmFQwTP97Z8fD2P.jpg'
+                        alt=''
                     />
 
                     <WhatWeDoDescription>
@@ -58,8 +58,8 @@ const WhatWeDo = () => {
                 </WhatWeDoContent>
                 <WhatWeDoContent>
                     <WhatWeDoImage 
-                        src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCEyssQdH3dTg7bi2EDKeWseOxSLpFisbkrg&usqp=CAU'
-                        alt='homem jogando no celular'
+                        src='https://www.planmkt.com.br/imagecache/news_list/files/planxp_news/Is7OZL2vSCHK6ABvU7CXrb7DxlMAvohlEP7CkJPM.jpg'
+                        alt=''
                     />
 
                     <WhatWeDoDescription>
@@ -68,7 +68,7 @@ const WhatWeDo = () => {
                 </WhatWeDoContent>
                 <WhatWeDoContent>
                     <div style={{width:'135px', height:'120px', display:'flex',alignItems:'flex-end'}}>
-                        <BsController size={35}/>
+                        <BsController size={35} color={'#939598'}/>
                     </div>
 
                     <WhatWeDoDescription>Experimente inovar com a <span>PlanXP</span> para <span>desenvolver os seus jogos digitais!</span></WhatWeDoDescription>
