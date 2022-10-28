@@ -76,6 +76,11 @@ export const MenuBottom = styled.a`
         opacity:.8;
     }
 
+    p {
+
+        max-width:140px;
+    }
+
     svg {
 
         margin-left:10px;
