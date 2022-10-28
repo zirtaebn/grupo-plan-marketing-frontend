@@ -16,4 +16,9 @@ export default createGlobalStyle`
     border:none;
   }
 
+  ul, li {
+
+    list-style: none
+  }
+
 `
