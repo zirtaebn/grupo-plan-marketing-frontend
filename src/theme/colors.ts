@@ -8,6 +8,7 @@ const Colors = {
     text:{
 
         gray:'#292929',
+        lightGray:'#939598',
         white:'#fff'
     }
 }
