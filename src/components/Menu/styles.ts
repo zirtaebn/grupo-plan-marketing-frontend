@@ -27,7 +27,6 @@ export const MenuLogo = styled.img`
 
 export const MenuItems = styled.ul`
 
-    border-bottom:2px solid ${Colors.border};
     padding:0 24px;
 `
 
@@ -70,6 +69,7 @@ export const MenuBottom = styled.a`
     text-decoration:none;
     color:${Colors.text.lightGray};
     padding:50px 24px;
+    border-top:2px solid ${Colors.border};
 
     &:hover {
 
