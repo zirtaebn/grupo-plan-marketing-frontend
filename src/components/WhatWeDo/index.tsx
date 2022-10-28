@@ -75,7 +75,7 @@ const WhatWeDo = () => {
 
                     <a href="">
                         ENTRE EM CONTATO AGORA MESMO
-                        <BsArrowDownRight size={10} />
+                        <BsArrowDownRight size={10} color={'#fff'}/>
                         
                     </a>
                 </WhatWeDoContent>

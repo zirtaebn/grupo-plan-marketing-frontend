@@ -49,11 +49,6 @@ export const WhatWeDoContent = styled.div`
     margin:0 5px;
     width:135px;
 
-    svg {
-
-        color:${Colors.text.white};
-    }
-
     &:last-child {
 
         p {
