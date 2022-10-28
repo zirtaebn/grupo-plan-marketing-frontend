@@ -68,12 +68,12 @@ export const MenuBottom = styled.a`
     width:100%;
     height:22px;
     text-decoration:none;
-    color:${Colors.text.white};
+    color:${Colors.text.lightGray};
     padding:50px 24px;
 
     &:hover {
 
-        opacity:.8;
+        opacity:.5;
     }
 
     p {
