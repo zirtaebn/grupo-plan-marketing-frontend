@@ -10,7 +10,7 @@ export const SectionTitleContainer = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:center;
-    width:100%;
+    width:auto;
     height:22px;
     text-decoration:none;
     color:${Colors.text.white};
@@ -19,19 +19,20 @@ export const SectionTitleContainer = styled.div`
 
         position:absolute;
         color:${Colors.text.gray};
-        font-size:90px;
+        font-size:100px;
         font-weight:700;
     }
 
     h2 {
 
-         z-index:200;
+        z-index:200;
         color:${Colors.text.lightGray};
-        font-size:32px;
+        font-size:38px;
+        font-weight:400;
 
     }
 
-    p {
+    h3 {
 
         z-index:200;
         font-size:14px;
