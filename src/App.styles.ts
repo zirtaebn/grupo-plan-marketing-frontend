@@ -5,6 +5,11 @@ import Colors from './theme/colors'
 
 export const AppContainer = styled.div`
 
-    background-color:${Colors.background.darkGray};
-    height:100vh;
+`
+
+export const AppContent = styled.main`
+
+    margin-left:330px;
+
+
 `

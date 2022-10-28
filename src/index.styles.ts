@@ -1,5 +1,8 @@
 import { createGlobalStyle } from 'styled-components'
 
+// utilities
+import Colors from './theme/colors'
+
 export default createGlobalStyle`
 
   * {
@@ -14,6 +17,12 @@ export default createGlobalStyle`
 
     cursor: pointer;
     border:none;
+  }
+
+  body {
+
+    background-color:${Colors.background.darkGray};
+    height:100vh;
   }
 
   ul, li {
