@@ -36,6 +36,7 @@ export const SectionTitleContainer = styled.div`
 
         z-index:200;
         font-size:14px;
+        font-weight:400;
     }
 
 `
