@@ -1,7 +1,9 @@
 import { BsController, BsArrowDownRight } from 'react-icons/bs'
 
-// styles
+// components
 import SectionTitle from '../SectionTitle'
+
+// styles
 import {
     WhatWeDoContainer, 
     WhatWeDoLeft,
