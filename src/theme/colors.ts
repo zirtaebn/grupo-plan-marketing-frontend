@@ -4,7 +4,8 @@ const Colors = {
 
         darkGray: '#1E1E1E',
         gray:'#292929',
-        lightGray:'#939598'
+        lightGray:'#939598',
+        midGray:'#3e3e3e'
     },
     border: '#292929',
     text:{

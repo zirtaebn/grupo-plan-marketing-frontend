@@ -35,7 +35,7 @@ export const MenuMobile = styled.header`
             display:flex;
             justify-content:center;
             align-items:center;
-            background-color:${Colors.background.gray};
+            background-color:${Colors.background.midGray};
         }
     }
 
