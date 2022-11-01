@@ -1,6 +1,8 @@
 ## Sobre o projeto
 Aplicação feita em um desafio técnico no processo seletivo do Grupo Plan Marketing onde a tarefa era desenvolver o layout de um site da empresa.
 
+Link do deploy: [https://grupo-plan-marketing-frontend.vercel.app/](https://grupo-plan-marketing-frontend.vercel.app/)
+
 <div align="center"> 
     Desktop
   <img src="./public/screenshots/desktop1.png" alt="screenshot" />
