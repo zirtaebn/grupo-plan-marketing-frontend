@@ -129,6 +129,7 @@ export const BlogItem = styled.li`
     @media(max-width:320px) {
 
        width:130px;
+       height:auto;
     }
 `
 export const ImageContainer = styled.div`
