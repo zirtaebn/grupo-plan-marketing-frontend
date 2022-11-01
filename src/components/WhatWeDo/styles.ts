@@ -1,20 +1,34 @@
 import styled from 'styled-components'
+
+// utilities
 import Colors from '../../theme/colors'
 
 export const WhatWeDoContainer = styled.section`
 
     display:flex;
-    align-items: center;
-    justify-content:center;
+    justify-content:space-around;
     height:100vh;
+    
+    @media(max-width:1200px){
+
+       height:calc(100vh - 100px);
+    }
+
+    @media(max-width:930px){
+
+       flex-direction:column;
+       height:calc(100% - 100px);
+       align-items: flex-start;
+    }
 `
 
 export const WhatWeDoLeft = styled.div`
 
+    margin-right:20px;
     display:flex;
     flex-direction:column;
-    height:400px;
-
+    justify-content:center;
+   
     h4, h5 {
 
         color:${Colors.text.lightGray}
@@ -40,14 +54,40 @@ export const WhatWeDoLeft = styled.div`
 
 export const WhatWeDoRight = styled.div`
 
-    display:flex;
-    margin-left:50px;
-    margin-right:20px;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+    gap:30px 5px;
+    margin-top:52px;
+    
+
+   @media(max-width:930px) {
+
+        grid-template-columns: auto auto auto auto;
+    }
+
+    @media(max-width:640px) {
+
+        grid-template-columns: auto auto auto;
+        gap:30px 10px;
+    }
+
+    @media(max-width:490px) {
+
+        grid-template-columns: auto auto;
+        gap:30px 10px;
+    }
+
+    @media(max-width:280px) {
+
+        grid-template-columns: auto;
+    }
 `
 export const WhatWeDoContent = styled.div`
 
     margin:0 5px;
-    width:135px;
+    width:140px;
 
     &:last-child {
 
@@ -73,6 +113,11 @@ export const WhatWeDoContent = styled.div`
                 opacity:.5;
             }
         }
+    }
+
+    @media(max-width:320px) {
+
+       width:120px;
     }
 `
 

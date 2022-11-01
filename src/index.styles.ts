@@ -28,6 +28,8 @@ export default createGlobalStyle`
 
     background-color:${Colors.background.darkGray};
     height:100vh;
+    width:100%;
+    overflow-x:hidden;
   }
 
   ul, li {

@@ -1,5 +1,5 @@
 import { BsArrowDownRight } from 'react-icons/bs'
-import {BiMask} from 'react-icons/bi'
+import { BiMask } from 'react-icons/bi'
 
 // components
 import SectionTitle from '../SectionTitle'
@@ -23,7 +23,7 @@ const PlanNews = () => {
 
     return (
 
-        <PlanNewsContainer>
+        <PlanNewsContainer id='plan-news'>
             <PlanNewsHeader>
                 <SectionTitle>
                     <div>03.</div>

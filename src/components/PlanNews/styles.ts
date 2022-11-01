@@ -6,13 +6,30 @@ import Colors from '../../theme/colors'
 export const PlanNewsContainer = styled.section`
 
     display:flex;
-    justify-content:center;
-    /* align-items: center; */
-    flex-direction:column;
+    justify-content:space-around;
     height:100vh;
+
+    @media(max-width:1830px){
+
+        align-items:flex-start;
+        justify-content:center;
+        flex-direction:column;
+       
+    }
+
+    @media(max-width:930px){
+
+       height:100%;
+       
+    }
+    
+    @media(max-width:680px) {
+
+        margin-top:30px;
+    }
 `
 export const PlanNewsHeader = styled.div`
-
+    
     display:flex;
     align-items:center;
 
@@ -32,22 +49,87 @@ export const PlanNewsHeader = styled.div`
 
             opacity:.5;
         }
+
+        @media(max-width:680px) {
+
+            margin: 32px 0 0 0px;
+        }
+
+        @media(max-width:425px) {
+
+            margin-top:10px;
+        }
+    }
+
+    
+    @media(max-width:680px) {
+
+        margin-bottom:20px;
+    }
+
+    @media(max-width:425px) {
+
+       flex-direction:column;
+       margin-bottom:20px;
     }
 `
 
 export const BlogItems = styled.ul`
 
-    display:flex;
+    display:grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto auto;
+    gap:30px 5px;
+
+    @media(max-width:930px) {
+
+        grid-template-columns: auto auto auto auto;
+    }
+
+    @media(max-width:780px) {
+
+        grid-template-columns: auto auto auto;
+        gap:30px 10px;
+    }
+
+    @media(max-width:590px) {
+
+        grid-template-columns: auto auto;
+        gap:30px 10px;
+    }
+
+    @media(max-width:280px) {
+
+        grid-template-columns: auto;
+    }
 `
 
 export const BlogItem = styled.li`
 
     display:flex;
     flex-direction:column;
-    width:191px;
-    height:305px;
+    width:170px;
+    height:308px;
     background-color:${Colors.background.gray};
     margin-right:10px;
+
+    @media(max-width:1200px){
+
+       height:330px;
+    }
+
+    @media(max-width:425px) {
+
+        margin-right:0;
+        width:150px;
+
+    }
+
+    @media(max-width:320px) {
+
+       width:130px;
+    }
 `
 export const ImageContainer = styled.div`
 

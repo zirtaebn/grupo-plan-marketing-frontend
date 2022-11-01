@@ -27,7 +27,7 @@ import {
 const Contact = () => {
 
     return (
-        <ContactContainer>
+        <ContactContainer id='contact'>
            <ContactLeft>
                 <SectionTitle>
                     <div>05.</div>

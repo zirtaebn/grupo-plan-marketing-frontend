@@ -19,7 +19,7 @@ const WhatWeDo = () => {
 
     return (
 
-        <WhatWeDoContainer>
+        <WhatWeDoContainer id='what-we-do'>
             <WhatWeDoLeft>
                 <SectionTitle>
                     <div>02.</div>
