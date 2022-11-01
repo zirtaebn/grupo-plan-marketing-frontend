@@ -110,7 +110,7 @@ export const BlogItem = styled.li`
     display:flex;
     flex-direction:column;
     width:170px;
-    height:308px;
+    height:335px;
     background-color:${Colors.background.gray};
     margin-right:10px;
 
